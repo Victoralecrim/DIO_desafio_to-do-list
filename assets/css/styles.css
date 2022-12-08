@@ -1,0 +1,77 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #3c423f;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background: #2c3332;
+
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.new-task-principal{
+    margin-top: 30px;
+}
+
+.nova_tarefa_principal #new-task {
+    border-radius: 3.5px;
+}
+
+#new-task:focus {
+    background: rgb(182, 187, 107);
+}
+
+#add-task {
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background: cornflowerblue;
+}
+
+.tasks{
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+    background: #81d8d0;
+    font-size: 18px;
+    text-transform: initial;
+}
+
+:checked +.msg{
+    text-decoration: line-through;
+    color: royalblue;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button[type="submit"]{
+    color: red;
+    font-weight: bold;
+    font-size: 10x;
+    height: 33px;
+}
+
+/* Usar para remover 
+
+.remove {
+    display: none;
+}
+
+*/
